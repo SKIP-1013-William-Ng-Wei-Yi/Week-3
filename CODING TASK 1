@@ -43,7 +43,8 @@ public class clyinderComputation {
 		baseArea = radius*radius*PI;
 		volume = radius*radius*height*PI;
 		
-		System.out.printf("The total surface area is %.2f",surfaceArea);
+		System.out.println("Cylinder Computation");
+		System.out.printf("\nThe total surface area is %.2f",surfaceArea);
 		System.out.printf("\nThe base area is %.2f",baseArea);
 		System.out.printf("\nThe volume is %.2f",volume);
 		
@@ -51,4 +52,3 @@ public class clyinderComputation {
 	}
 
 }
-
